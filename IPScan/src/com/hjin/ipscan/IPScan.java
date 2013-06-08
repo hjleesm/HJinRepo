@@ -33,7 +33,7 @@ public class IPScan extends Activity implements OnClickListener{
 				EditText eT = (EditText)findViewById(R.id.inputET);
 				String inputIP = eT.getText().toString();
 
-				//hjlee: 2013-03-30, ÀÔ·ÂµÈ ip°¡ Á¸ÀçÇØ¾ß ÇØ´ç ip °Ë»ö ¼öÇà.
+				//hjlee: 2013-03-30, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ipï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ip ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 				//eT.setText("192.168.0.83");
 				String ipStr = eT.getText().toString();
 
@@ -115,7 +115,6 @@ public class IPScan extends Activity implements OnClickListener{
 		return true;
 	}
 
-	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 
